@@ -1,5 +1,5 @@
 defmodule FizzBuzz do
-  # good ol' FizzBuzz
+  # good ol' FizzBuzz, naive approach
 
   # entry function, gaurd clauses
   def upto(n) when n > 0, do: _upto(1, n, [])
